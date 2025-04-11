@@ -231,9 +231,13 @@ Example Output:
 Ensure to set up the following environment variables for smooth functioning of the AI Agent:
 
 ```ini
-SIGNALWIRE_PROJECT=your_project_id
-SIGNALWIRE_TOKEN=your_auth_token
-POKEDEX_API_URL=https://your-pokedex-api.com
+DB_NAME=pokemon
+DB_USER=pokemon
+DB_PASSWORD=pokemon
+DB_HOST=localhost
+DB_PORT=3306
+PORT=5000
+DEBUG=True
 ```
 
 Make sure these environment variables are managed securely, and don’t expose them in public repositories.
